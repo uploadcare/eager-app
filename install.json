@@ -1,0 +1,29 @@
+{
+  "resources": {
+    "head": [
+      {
+        "type": "script",
+        "src": "./head.js"
+      },
+      {
+        "type": "script",
+        "contents": "EagerUploadcare.init(INSTALL_OPTIONS)"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "publicKey": {
+        "title": "Public API key",
+        "description": "Get your API key by <a href='https://uploadcare.com/pricing/'>signing up<a>",
+        "default": "demopublickey",
+        "type": "string"
+      },
+      "container": {
+        "title": "Where to place the widget",
+        "type": "object",
+        "format": "element"
+      }
+    }
+  }
+}
