@@ -9,7 +9,7 @@ window.EagerUploadcare = {
       script.type = 'text/javascript';
       script.src = 'https://ucarecdn.com/widget/2.5.1/uploadcare/uploadcare.full.min.js';
       script.charset = 'utf-8';
-      document.body.appendChild(script);
+      document.head.appendChild(script);
     };
 
     var container = Eager.createElement(options.container);
