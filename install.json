@@ -14,12 +14,14 @@
   "options": {
     "properties": {
       "publicKey": {
+        "order": 1,
         "title": "Public API key",
         "description": "Get your API key by <a href='https://uploadcare.com/pricing/'>signing up<a>",
         "default": "demopublickey",
         "type": "string"
       },
       "container": {
+        "order": 2,
         "title": "Where to place the widget",
         "type": "object",
         "format": "element"
