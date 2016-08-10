@@ -7,7 +7,7 @@ window.EagerUploadcare = {
     var loadScript = function() {
       var script = document.createElement('script');
       script.type = 'text/javascript';
-      script.src = 'https://ucarecdn.com/widget/2.5.1/uploadcare/uploadcare.full.min.js';
+      script.src = 'https://ucarecdn.com/widget/2.9.0/uploadcare/uploadcare.full.min.js';
       script.charset = 'utf-8';
       document.head.appendChild(script);
     };
